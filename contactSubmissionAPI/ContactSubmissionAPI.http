@@ -1,0 +1,6 @@
+@ContactSubmissionAPI_HostAddress = http://localhost:5000
+
+GET {{ContactSubmissionAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
