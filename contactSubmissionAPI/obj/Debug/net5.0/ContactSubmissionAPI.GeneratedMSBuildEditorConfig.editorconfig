@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = ContactSubmissionAPI
-build_property.ProjectDir = E:\ContactSubmissionForm\contactSubmissionAPI\
+build_property.ProjectDir = E:\Contactsubmissionform_git\ContactForm\contactSubmissionAPI\

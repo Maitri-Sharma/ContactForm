@@ -1096,6 +1096,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "Microsoft.EntityFrameworkCore >= 5.0.3",
+      "Microsoft.Extensions.Logging >= 5.0.0",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 5.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
@@ -1106,11 +1107,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ContactSubmissionForm\\contactSubmissionAPI\\ContactSubmissionAPI.csproj",
+      "projectUniqueName": "E:\\Contactsubmissionform_git\\ContactForm\\contactSubmissionAPI\\ContactSubmissionAPI.csproj",
       "projectName": "ContactSubmissionAPI",
-      "projectPath": "E:\\ContactSubmissionForm\\contactSubmissionAPI\\ContactSubmissionAPI.csproj",
+      "projectPath": "E:\\Contactsubmissionform_git\\ContactForm\\contactSubmissionAPI\\ContactSubmissionAPI.csproj",
       "packagesPath": "C:\\Users\\sharmama\\.nuget\\packages\\",
-      "outputPath": "E:\\ContactSubmissionForm\\contactSubmissionAPI\\obj\\",
+      "outputPath": "E:\\Contactsubmissionform_git\\ContactForm\\contactSubmissionAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sharmama\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1142,6 +1143,10 @@
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[5.0.3, )"
+          },
+          "Microsoft.Extensions.Logging": {
+            "target": "Package",
+            "version": "[5.0.0, )"
           },
           "Npgsql.EntityFrameworkCore.PostgreSQL": {
             "target": "Package",
