@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS Forms (
+    Id INTEGER  PRIMARY KEY,
+    Name TEXT NOT NULL,
+    Email TEXT NOT NULL,
+    PhoneNumber TEXT
+);
