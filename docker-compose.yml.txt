@@ -1,0 +1,32 @@
+version: '3.8'
+services:
+  frontend:
+    build:
+      context: ./contactSubmissionApp
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+
+  backend:
+    build:
+      context: ./contactSubmissionAPI
+    ports:
+      - "7023:80"
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:16
+    container_name: postgres_container
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: Posten@16
+      POSTGRES_DB: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
